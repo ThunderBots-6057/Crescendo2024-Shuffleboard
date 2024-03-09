@@ -1,0 +1,118 @@
+Mar 09, 2024 6:43:11 PM edu.wpi.first.shuffleboard.app.Shuffleboard init
+INFO: Build time: 2020-02-21T16:02:00.551758Z
+Mar 09, 2024 6:43:11 PM edu.wpi.first.shuffleboard.app.plugin.PluginLoader load
+INFO: Loading plugin edu.wpi.first.shuffleboard:Base:1.1.8
+Mar 09, 2024 6:43:11 PM edu.wpi.first.shuffleboard.app.plugin.PluginLoader load
+INFO: Loaded plugin edu.wpi.first.shuffleboard:Base in 68ms
+Mar 09, 2024 6:43:11 PM edu.wpi.first.shuffleboard.app.plugin.PluginLoader load
+INFO: Loading plugin edu.wpi.first.shuffleboard:NetworkTables:2.2.5
+Mar 09, 2024 6:43:11 PM edu.wpi.first.shuffleboard.app.plugin.PluginLoader load
+INFO: Loaded plugin edu.wpi.first.shuffleboard:NetworkTables in 25ms
+Mar 09, 2024 6:43:11 PM edu.wpi.first.shuffleboard.app.plugin.PluginLoader load
+INFO: Loading plugin edu.wpi.first.shuffleboard:CameraServer:3.0.0
+Mar 09, 2024 6:43:14 PM edu.wpi.first.shuffleboard.app.plugin.PluginLoader load
+INFO: Loaded plugin edu.wpi.first.shuffleboard:CameraServer in 3459ms
+Mar 09, 2024 6:43:15 PM edu.wpi.first.shuffleboard.app.MainWindowController initialize
+INFO: Setting up plugins in the UI
+Mar 09, 2024 6:43:15 PM edu.wpi.first.shuffleboard.app.Shuffleboard init
+WARNING: Took 539ms to load the main FXML
+Mar 09, 2024 6:43:17 PM edu.wpi.first.shuffleboard.app.Shuffleboard start
+WARNING: Took 6878ms to start Shuffleboard
+Mar 09, 2024 6:43:17 PM edu.wpi.first.shuffleboard.app.json.WidgetSaver deserialize
+WARNING: Saved source type is not present, adding destroyed source(s) instead
+Mar 09, 2024 6:43:17 PM edu.wpi.first.shuffleboard.app.Shuffleboard uncaughtException
+WARNING: Uncaught exception on JavaFX Application Thread
+java.lang.ClassCastException: class com.google.gson.internal.LazilyParsedNumber cannot be cast to class java.lang.Integer (com.google.gson.internal.LazilyParsedNumber is in unnamed module of loader 'app'; java.lang.Integer is in module java.base of loader 'bootstrap')
+	at edu.wpi.first.shuffleboard.plugin.cameraserver.widget.CameraServerWidget.applySettings(CameraServerWidget.java:165)
+	at edu.wpi.first.shuffleboard.plugin.cameraserver.widget.CameraServerWidget.lambda$initialize$6(CameraServerWidget.java:126)
+	at com.sun.javafx.binding.ExpressionHelper$Generic.fireValueChangedEvent(ExpressionHelper.java:360)
+	at com.sun.javafx.binding.ExpressionHelper.fireValueChangedEvent(ExpressionHelper.java:80)
+	at javafx.beans.property.ObjectPropertyBase.fireValueChangedEvent(ObjectPropertyBase.java:106)
+	at javafx.beans.property.ObjectPropertyBase.markInvalid(ObjectPropertyBase.java:113)
+	at javafx.beans.property.ObjectPropertyBase.set(ObjectPropertyBase.java:147)
+	at edu.wpi.first.shuffleboard.api.widget.SingleSourceWidget.addSource(SingleSourceWidget.java:20)
+	at edu.wpi.first.shuffleboard.app.json.WidgetSaver.deserialize(WidgetSaver.java:73)
+	at edu.wpi.first.shuffleboard.app.json.WidgetSaver.deserialize(WidgetSaver.java:23)
+	at edu.wpi.first.shuffleboard.api.json.ElementTypeAdapter.deserialize(ElementTypeAdapter.java:30)
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69)
+	at com.google.gson.Gson.fromJson(Gson.java:888)
+	at com.google.gson.Gson.fromJson(Gson.java:953)
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162)
+	at edu.wpi.first.shuffleboard.app.json.WidgetPaneSaver.deserialize(WidgetPaneSaver.java:74)
+	at edu.wpi.first.shuffleboard.app.json.WidgetPaneSaver.deserialize(WidgetPaneSaver.java:24)
+	at edu.wpi.first.shuffleboard.api.json.ElementTypeAdapter.deserialize(ElementTypeAdapter.java:30)
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69)
+	at com.google.gson.Gson.fromJson(Gson.java:888)
+	at com.google.gson.Gson.fromJson(Gson.java:953)
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162)
+	at edu.wpi.first.shuffleboard.app.json.DashboardTabPaneSaver.deserialize(DashboardTabPaneSaver.java:55)
+	at edu.wpi.first.shuffleboard.app.json.DashboardTabPaneSaver.deserialize(DashboardTabPaneSaver.java:22)
+	at edu.wpi.first.shuffleboard.api.json.ElementTypeAdapter.deserialize(ElementTypeAdapter.java:30)
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:129)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:220)
+	at com.google.gson.Gson.fromJson(Gson.java:888)
+	at com.google.gson.Gson.fromJson(Gson.java:826)
+	at edu.wpi.first.shuffleboard.app.SaveFileHandler.load(SaveFileHandler.java:115)
+	at edu.wpi.first.shuffleboard.app.MainWindowController.load(MainWindowController.java:254)
+	at edu.wpi.first.shuffleboard.app.Shuffleboard.lambda$start$3(Shuffleboard.java:116)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:428)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:427)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:96)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Mar 09, 2024 6:43:17 PM edu.wpi.first.shuffleboard.app.json.WidgetSaver deserialize
+WARNING: Saved source type is not present, adding destroyed source(s) instead
+Mar 09, 2024 6:43:18 PM edu.wpi.first.shuffleboard.app.Shuffleboard uncaughtException
+WARNING: Uncaught exception on JavaFX Application Thread
+java.lang.ClassCastException: class com.google.gson.internal.LazilyParsedNumber cannot be cast to class java.lang.Integer (com.google.gson.internal.LazilyParsedNumber is in unnamed module of loader 'app'; java.lang.Integer is in module java.base of loader 'bootstrap')
+	at edu.wpi.first.shuffleboard.plugin.cameraserver.widget.CameraServerWidget.applySettings(CameraServerWidget.java:165)
+	at edu.wpi.first.shuffleboard.plugin.cameraserver.widget.CameraServerWidget.lambda$initialize$6(CameraServerWidget.java:126)
+	at com.sun.javafx.binding.ExpressionHelper$Generic.fireValueChangedEvent(ExpressionHelper.java:360)
+	at com.sun.javafx.binding.ExpressionHelper.fireValueChangedEvent(ExpressionHelper.java:80)
+	at javafx.beans.property.ObjectPropertyBase.fireValueChangedEvent(ObjectPropertyBase.java:106)
+	at javafx.beans.property.ObjectPropertyBase.markInvalid(ObjectPropertyBase.java:113)
+	at javafx.beans.property.ObjectPropertyBase.set(ObjectPropertyBase.java:147)
+	at edu.wpi.first.shuffleboard.api.widget.SingleSourceWidget.addSource(SingleSourceWidget.java:20)
+	at edu.wpi.first.shuffleboard.app.json.WidgetSaver.deserialize(WidgetSaver.java:73)
+	at edu.wpi.first.shuffleboard.app.json.WidgetSaver.deserialize(WidgetSaver.java:23)
+	at edu.wpi.first.shuffleboard.api.json.ElementTypeAdapter.deserialize(ElementTypeAdapter.java:30)
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69)
+	at com.google.gson.Gson.fromJson(Gson.java:888)
+	at com.google.gson.Gson.fromJson(Gson.java:953)
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162)
+	at edu.wpi.first.shuffleboard.app.json.WidgetPaneSaver.deserialize(WidgetPaneSaver.java:74)
+	at edu.wpi.first.shuffleboard.app.json.WidgetPaneSaver.deserialize(WidgetPaneSaver.java:24)
+	at edu.wpi.first.shuffleboard.api.json.ElementTypeAdapter.deserialize(ElementTypeAdapter.java:30)
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69)
+	at com.google.gson.Gson.fromJson(Gson.java:888)
+	at com.google.gson.Gson.fromJson(Gson.java:953)
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162)
+	at edu.wpi.first.shuffleboard.app.json.DashboardTabPaneSaver.deserialize(DashboardTabPaneSaver.java:55)
+	at edu.wpi.first.shuffleboard.app.json.DashboardTabPaneSaver.deserialize(DashboardTabPaneSaver.java:22)
+	at edu.wpi.first.shuffleboard.api.json.ElementTypeAdapter.deserialize(ElementTypeAdapter.java:30)
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:129)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:220)
+	at com.google.gson.Gson.fromJson(Gson.java:888)
+	at com.google.gson.Gson.fromJson(Gson.java:826)
+	at edu.wpi.first.shuffleboard.app.SaveFileHandler.load(SaveFileHandler.java:115)
+	at edu.wpi.first.shuffleboard.app.MainWindowController.load(MainWindowController.java:254)
+	at edu.wpi.first.shuffleboard.app.Shuffleboard.lambda$start$3(Shuffleboard.java:116)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:428)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:427)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:96)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Mar 09, 2024 6:43:18 PM edu.wpi.first.shuffleboard.app.json.WidgetSaver deserialize
+WARNING: Saved source type is not present, adding destroyed source(s) instead
+Mar 09, 2024 6:47:23 PM edu.wpi.first.shuffleboard.app.Shuffleboard stop
+INFO: Running shutdown hooks
+Mar 09, 2024 6:47:24 PM edu.wpi.first.shuffleboard.app.Shuffleboard stop
+INFO: Shutting down

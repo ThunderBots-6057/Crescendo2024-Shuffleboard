@@ -1,0 +1,24 @@
+Jan 28, 2022 5:16:26 PM edu.wpi.first.shuffleboard.app.Shuffleboard init
+INFO: Build time: 2020-02-21T16:02:00.551758Z
+Jan 28, 2022 5:16:26 PM edu.wpi.first.shuffleboard.app.plugin.PluginLoader load
+INFO: Loading plugin edu.wpi.first.shuffleboard:Base:1.1.8
+Jan 28, 2022 5:16:26 PM edu.wpi.first.shuffleboard.app.plugin.PluginLoader load
+INFO: Loaded plugin edu.wpi.first.shuffleboard:Base in 52ms
+Jan 28, 2022 5:16:26 PM edu.wpi.first.shuffleboard.app.plugin.PluginLoader load
+INFO: Loading plugin edu.wpi.first.shuffleboard:NetworkTables:2.2.5
+Jan 28, 2022 5:16:26 PM edu.wpi.first.shuffleboard.app.plugin.PluginLoader load
+INFO: Loaded plugin edu.wpi.first.shuffleboard:NetworkTables in 13ms
+Jan 28, 2022 5:16:26 PM edu.wpi.first.shuffleboard.app.plugin.PluginLoader load
+INFO: Loading plugin edu.wpi.first.shuffleboard:CameraServer:3.0.0
+Jan 28, 2022 5:16:29 PM edu.wpi.first.shuffleboard.app.plugin.PluginLoader load
+INFO: Loaded plugin edu.wpi.first.shuffleboard:CameraServer in 2728ms
+Jan 28, 2022 5:16:29 PM edu.wpi.first.shuffleboard.app.MainWindowController initialize
+INFO: Setting up plugins in the UI
+Jan 28, 2022 5:16:29 PM edu.wpi.first.shuffleboard.app.Shuffleboard init
+INFO: Took 470ms to load the main FXML
+Jan 28, 2022 5:16:33 PM edu.wpi.first.shuffleboard.app.Shuffleboard start
+WARNING: Took 7224ms to start Shuffleboard
+Jan 28, 2022 5:16:39 PM edu.wpi.first.shuffleboard.app.Shuffleboard stop
+INFO: Running shutdown hooks
+Jan 28, 2022 5:16:40 PM edu.wpi.first.shuffleboard.app.Shuffleboard stop
+INFO: Shutting down

@@ -1,0 +1,40 @@
+Mar 19, 2022 11:32:42 AM edu.wpi.first.shuffleboard.app.Shuffleboard init
+INFO: Build time: 2022-02-26T21:38:33.311213200Z
+Mar 19, 2022 11:32:42 AM edu.wpi.first.shuffleboard.app.plugin.PluginLoader load
+INFO: Loading plugin edu.wpi.first.shuffleboard:Base:1.3.1
+Mar 19, 2022 11:32:43 AM edu.wpi.first.shuffleboard.app.plugin.PluginLoader load
+INFO: Loaded plugin edu.wpi.first.shuffleboard:Base in 74ms
+Mar 19, 2022 11:32:43 AM edu.wpi.first.shuffleboard.app.plugin.PluginLoader load
+INFO: Loading plugin edu.wpi.first.shuffleboard:NetworkTables:2.3.0
+Mar 19, 2022 11:32:43 AM edu.wpi.first.shuffleboard.app.plugin.PluginLoader load
+INFO: Loaded plugin edu.wpi.first.shuffleboard:NetworkTables in 14ms
+Mar 19, 2022 11:32:43 AM edu.wpi.first.shuffleboard.app.plugin.PluginLoader load
+INFO: Loading plugin edu.wpi.first.shuffleboard:CameraServer:3.1.0
+Mar 19, 2022 11:32:46 AM edu.wpi.first.shuffleboard.app.plugin.PluginLoader load
+INFO: Loaded plugin edu.wpi.first.shuffleboard:CameraServer in 3540ms
+Mar 19, 2022 11:32:47 AM edu.wpi.first.shuffleboard.app.MainWindowController initialize
+INFO: Setting up plugins in the UI
+Mar 19, 2022 11:32:47 AM edu.wpi.first.shuffleboard.app.Shuffleboard init
+WARNING: Took 503ms to load the main FXML
+Mar 19, 2022 11:32:50 AM edu.wpi.first.shuffleboard.app.Shuffleboard start
+WARNING: Took 8021ms to start Shuffleboard
+Mar 19, 2022 11:32:58 AM edu.wpi.first.shuffleboard.plugin.cameraserver.source.CameraServerSource lambda$new$5
+WARNING: Could not get bandwidth
+VideoException [edu.wpi.first.cscore.VideoException: empty value]
+	at edu.wpi.first.cscore.CameraServerJNI.getTelemetryAverageValue(Native Method)
+	at edu.wpi.first.cscore.CameraServerJNI.getTelemetryAverageValue(CameraServerJNI.java:364)
+	at edu.wpi.first.cscore.VideoSource.getActualDataRate(VideoSource.java:334)
+	at edu.wpi.first.shuffleboard.plugin.cameraserver.source.CameraServerSource.lambda$new$5(CameraServerSource.java:139)
+
+Mar 19, 2022 11:32:58 AM edu.wpi.first.shuffleboard.plugin.cameraserver.source.CameraServerSource lambda$new$5
+WARNING: Could not get framerate
+VideoException [edu.wpi.first.cscore.VideoException: empty value]
+	at edu.wpi.first.cscore.CameraServerJNI.getTelemetryAverageValue(Native Method)
+	at edu.wpi.first.cscore.CameraServerJNI.getTelemetryAverageValue(CameraServerJNI.java:364)
+	at edu.wpi.first.cscore.VideoSource.getActualFPS(VideoSource.java:321)
+	at edu.wpi.first.shuffleboard.plugin.cameraserver.source.CameraServerSource.lambda$new$5(CameraServerSource.java:145)
+
+Mar 19, 2022 1:32:34 PM edu.wpi.first.shuffleboard.app.Shuffleboard stop
+INFO: Running shutdown hooks
+Mar 19, 2022 1:32:34 PM edu.wpi.first.shuffleboard.app.Shuffleboard stop
+INFO: Shutting down

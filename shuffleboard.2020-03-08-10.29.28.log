@@ -1,0 +1,28 @@
+Mar 08, 2020 10:29:28 AM edu.wpi.first.shuffleboard.api.util.Storage findOrCreate
+INFO: Creating directory C:\Users\Thunderbots6057\Shuffleboard\themes
+Mar 08, 2020 10:29:28 AM edu.wpi.first.shuffleboard.app.Shuffleboard init
+INFO: Build time: 2020-02-21T16:02:00.551758Z
+Mar 08, 2020 10:29:28 AM edu.wpi.first.shuffleboard.app.plugin.PluginLoader load
+INFO: Loading plugin edu.wpi.first.shuffleboard:Base:1.1.8
+Mar 08, 2020 10:29:28 AM edu.wpi.first.shuffleboard.app.plugin.PluginLoader load
+INFO: Loaded plugin edu.wpi.first.shuffleboard:Base in 62ms
+Mar 08, 2020 10:29:28 AM edu.wpi.first.shuffleboard.app.plugin.PluginLoader load
+INFO: Loading plugin edu.wpi.first.shuffleboard:NetworkTables:2.2.5
+Mar 08, 2020 10:29:28 AM edu.wpi.first.shuffleboard.app.plugin.PluginLoader load
+INFO: Loaded plugin edu.wpi.first.shuffleboard:NetworkTables in 13ms
+Mar 08, 2020 10:29:28 AM edu.wpi.first.shuffleboard.app.plugin.PluginLoader load
+INFO: Loading plugin edu.wpi.first.shuffleboard:CameraServer:3.0.0
+Mar 08, 2020 10:29:31 AM edu.wpi.first.shuffleboard.app.plugin.PluginLoader load
+INFO: Loaded plugin edu.wpi.first.shuffleboard:CameraServer in 2853ms
+Mar 08, 2020 10:29:31 AM edu.wpi.first.shuffleboard.api.util.Storage findOrCreate
+INFO: Creating directory C:\Users\Thunderbots6057\Shuffleboard\plugins
+Mar 08, 2020 10:29:31 AM edu.wpi.first.shuffleboard.app.MainWindowController initialize
+INFO: Setting up plugins in the UI
+Mar 08, 2020 10:29:31 AM edu.wpi.first.shuffleboard.app.Shuffleboard init
+INFO: Took 390ms to load the main FXML
+Mar 08, 2020 10:29:33 AM edu.wpi.first.shuffleboard.app.Shuffleboard start
+WARNING: Took 5510ms to start Shuffleboard
+Mar 08, 2020 10:29:43 AM edu.wpi.first.shuffleboard.app.Shuffleboard stop
+INFO: Running shutdown hooks
+Mar 08, 2020 10:29:44 AM edu.wpi.first.shuffleboard.app.Shuffleboard stop
+INFO: Shutting down
